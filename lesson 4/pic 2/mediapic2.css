@@ -1,0 +1,26 @@
+@media screen and (max-width: 535px) {
+    .middle{
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom__advert{
+       min-width: fit-content;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .nav{
+        display: flex;
+    }
+
+    .header__logo{
+        margin-right: 20px;
+    }
+}
