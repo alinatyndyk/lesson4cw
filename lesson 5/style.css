@@ -141,7 +141,7 @@
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 30px;
     align-items: center;
     box-sizing: border-box;
 }
@@ -508,6 +508,7 @@ div.name::after{
 .gallery__dishes_photo{
     display: flex;
     column-gap: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -524,4 +525,13 @@ div.name::after{
     line-height: 62px;
     margin-bottom: 60px;
     color: #000000;
+}
+
+
+.header__main__card_name_yellow{
+    color: #BC9060;
+}
+
+.name__orange{
+    color: #D67E35;
 }
