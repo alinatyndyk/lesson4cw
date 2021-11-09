@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background: url("../lesson 5/image/bg.png") no-repeat center/cover;
+}
+
+.header__top {
+    padding: 50px 165px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item img {
+    width: 20px;
+}
+
+.nav {
+    display: flex;
+    column-gap: 25px;
+    border-right: 1px solid #FFFFFF;
+    padding: 25px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.nav_item a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__phone {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.header__button {
+    height: 50px;
+    width: 160px;
+    background: #FF7400;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.contact__text {
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+
+#contact {
+    display: flex;
+    column-gap: 8px;
+}
+
+.header__title {
+    font-weight: normal;
+    color: #D67E35;
+    margin-top: 203px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-left: 24px;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header__title p::before,
+.header__title p::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+
+.header__title p::before {
+    margin-right: 10px;
+}
+
+.header__title p::after {
+    margin-left: 10px;
+}
+
+.header__main_cards_container {
+    position: relative;
+    height: 330px;
+}
+
+
+.header__main_cards {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    bottom: -300px;
+}
+
+
+.header__main_card {
+    height: 330px;
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header__main__card_name {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 20px 0 20px 0;
+}
+
+.header__main_card p {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.blank {
+    height: 250px;
+}
+
+.history {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.history__header {
+    margin-top: 166px;
+    margin-left: 220px;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000
+}
+
+.history p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #656363;
+    text-align: start;
+    margin-bottom: 70px;
+}
+
+
+.history__header_image {
+    margin: 150px 300px 0 200px;
+}
+
+.history__menu {
+    display: flex;
+    column-gap: 50px;
+}
+
+.menu__number {
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.menu__text {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.celebration__text_header {
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    width: 700px;
+}
+
+.celebration {
+    height: 357px;
+    background: rgba(0, 0, 0, 0.85);
+    margin-top: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px 0 200px;
+}
+
+.celebration__text_under {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.celebration__button button {
+    width: 157px;
+    height: 47px;
+    left: 1097px;
+    top: 1946px;
+    background: #FF7400;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.burger{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dishes__burgers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dishes {
+    padding:200px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    box-sizing: border-box;
+}
+
+#dishes{
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    padding-top: 140px;
+}
+
+div.name::after{
+    content: '';
+    display: block;
+    width: 200px;
+    border:none;
+    border-top:1px dotted #000000;
+    color:#fff;
+    height:1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.burger div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.burger_photo{
+    margin-right: 20px;
+}
+
+
+.bar__cards_container{
+    display: flex;
+    column-gap: 30px;
+}
+.bar__card{
+    height: 510px;
+    width: 350px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bar h2{
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-bottom: 140px;
+}
+
+.bar{
+    height: 100vh;
+    background: url("../lesson 5/image/bar.png") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar__container{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar__card_photo{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    background: url("../lesson 5/image/burgerbarcard.png");
+    position: relative;
+}
+
+.bar__card_price{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #D67E34;
+    border: 7px solid #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.bar__card_header{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    margin: 20px 0 20px 0;
+}
+
+.bar__card_text p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.bar__button{
+    border: none;
+    width: 220px;
+    height: 50px;
+    background: #D67E34;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.review{
+    height: 550px;
+    background: #E6E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 260px 100px 260px;
+    box-sizing: border-box;
+}
+
+.review_text{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.review__photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: url("../lesson 5/image/beard.png");
+    margin: 17px 0 17px;
+}
+
+.visitor{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.reviewers_name{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 26px;
+    color: #000000;
+}
+
+.circles{
+    display: flex;
+    column-gap: 2px;
+}
+
+.circle{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+
+#orange_circle{
+    border: 1px solid #FF7400;
+    box-sizing: border-box;
+}
+
+.gallery h2{
+    text-align: center;
+}
+
+.gallery{
+    padding: 100px 167px 0 167px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery__dishes_photo_two{
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 10px;
+}
+
+.our_cooks h2{
+    margin: 100px 0 100px 0;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+
+.our__cooks_photo{
+    display: flex;
+    box-sizing: border-box;
+    column-gap: 30px;
+}
+
+.gallery__dishes_photo{
+    display: flex;
+    column-gap: 10px;
+}
+
+
+
+.footer{
+    margin-top: 100px;
+    height: 800px;
+    background: url("../lesson 5/image/footer.png") no-repeat center/cover;
+}
+
+.gallery__dishes h2{
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    margin-bottom: 60px;
+    color: #000000;
+}
