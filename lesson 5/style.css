@@ -315,6 +315,23 @@ div.name::after{
     padding: 60px;
     flex-direction: column;
     text-align: center;
+    position: relative;
+}
+
+.bar__card_recommended{
+    width: 124px;
+    height: 36px;
+    background: #D67E34;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bar h2{
